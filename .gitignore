@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env files
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+dist/
+frontend/.vite/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# CI/test artifacts
+.pytest_cache/
+coverage/
