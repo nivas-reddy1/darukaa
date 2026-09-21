@@ -62,7 +62,7 @@ export default function Chat() {
         {/* Header */}
         <div className="flex items-center justify-center gap-2.5 px-6 py-4 border-b border-white/20 bg-white/10 text-white">
           <h1 className="text-lg font-semibold tracking-wide">
-            Biodiversity Chatbot
+            AI Biodiversity Chatbot
           </h1>
         </div>
 
@@ -77,8 +77,9 @@ export default function Chat() {
             <div className="m-auto max-w-sm text-center text-white/90">
               <p className="text-base font-medium">Before you begin</p>
               <p className="mt-2 text-sm leading-relaxed text-white/75">
-                This assistant is powered by AI and can make mistakes. Check
-                important information before relying on it.
+                This AI assistant may occasionally make mistakes. Provide accurate and
+                complete information for better results, and verify important details
+                before relying on its responses.
               </p>
             </div>
           )}
